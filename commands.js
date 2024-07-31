@@ -1,3 +1,36 @@
+import figlet from "figlet";
+
+const commands = {};
+
+const terms = $('body').terminal(commands, {
+    greetings
+});
+
+const font = 'Small';
+
+figlet.defaults({ fontPath: 'https://unpkg.com/figlet/fonts/' });
+figlet.loadFont([font], ready);
+
+const term = $('body').terminal(commands, {
+    greetings: false
+});
+
+function ready() {
+    term.echo(() => {
+        const ascii = render("Allison Wong");
+        return `Hi, I'm...\n${ascii}\n`
+    });
+}
+
+function render(text) {
+    const cols = term.cols();
+    return figlet.textSync(text, {
+        font: font,
+        width: cols,
+        whitespaceBreak: true
+    });
+}
+
 help = [
     "<br>",
     'abouta         Who even is Allison?',

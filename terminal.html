@@ -3,11 +3,13 @@
     <head>
         <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/figlet/lib/figlet.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
         <!-- making my own stylesheet later would be nice -->
         <!-- this actually doesn't do anything for me but here's the github file https://github.com/jcubic/jquery.terminal/blob/master/css/jquery.terminal.min.css -->
         <!-- they're wiki on how to change the css: https://github.com/jcubic/jquery.terminal/wiki/CSS-Style -->
         <!--  more resources: https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/#how-to-make-your-first-command -->
+        <script src="commands.js"></script>
     </head>
     <body>
         <script>
@@ -16,12 +18,7 @@
                     this.echo('Hello, ' + what + '. Welcome to this terminal.');
                 }
             }, {
-                greetings: 'My First Web Terminal' // put better welcome ascii art here
-            });
-            $('body').terminal({
-                something: function(something) {
-                    this.echo('does this like do something');
-                }
+                greetings: "Idrk man I don't think I made the command yet..." // put better welcome ascii art here
             });
         </script>
     </body>
