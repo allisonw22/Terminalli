@@ -1,34 +1,34 @@
-import figlet from "figlet";
 
 const commands = {};
-
-const terms = $('body').terminal(commands, {
-    greetings
-});
 
 const font = 'Small';
 
 figlet.defaults({ fontPath: 'https://unpkg.com/figlet/fonts/' });
 figlet.loadFont([font], ready);
 
-const term = $('body').terminal(commands, {
-    greetings: false
-});
+var term;
 
 function ready() {
-    term.echo(() => {
-        const ascii = render("Allison Wong");
-        return `Hi, I'm...\n${ascii}\n`
+    term = $('body').terminal({
+        banner: function() {
+            this.echo(() => render(this, "Allison Wong"));
+        }
+    }, {
+        greetings: false,
+        onInit() {
+            this.echo(() => render(this, "Allison Wong"))
+        }
     });
 }
 
-function render(text) {
+function render(term, text) {
     const cols = term.cols();
-    return figlet.textSync(text, {
+    const ascii = figlet.textSync(text, {
         font: font,
         width: cols,
         whitespaceBreak: true
     });
+    return `Hi, I'm...\n${ascii}\n`;
 }
 
 help = [
