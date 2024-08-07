@@ -1,7 +1,11 @@
+const linkedin = "https://www.linkedin.com/in/allisonwong22";
+
+const github = "https://github.com/allisonw22";
+
 const help = "\nabouta         Who even is Allison?\n" +
 "experience     Basically my resume if you want to read that...\n" +
-"projects       Some fun coding projects\n" +
-"skills         Is she even hireable?\n" +
+"projects       Some fun coding & personal projects\n" +
+"skills         Technical skills/interests & soft skills\n" + // lol change this please
 "hobbies        Life away from the computer\n" +
 "contact        Please contact this very hireable person\n" +
 "banner         View the ascii art banner\n" +
@@ -26,17 +30,19 @@ const experience = "\nSoftware Systems Intern | The Aerospace Corporation (Summe
 // TODO STILL
 // how do i format it to look nice
 // make the names of the projects hrefs to githubs? 
-const projects = "\nCoding Projects\n" +
-"* Software Aid for Medical Emergencies:\n" +
-"* Bike Tour Application: \n* Figma Design project for a self-led bike tour around Barcelona\n" +
-"* Chat Box: Python local multi-threaded chatroom implementing TCP socket connections & authentication\n" +
-"* Frogger Application:\n" +
-"* Jordle Game: Wordle parody using JavaFX graphics\n" +
-"\nFuture code is under construction... polishing some bits and bytes, but more coming soon :)\n" +
-"\nPersonal Projects\n" +
-"* Notion Templates\n" +
-"* Painted AirForce 1s\n" +
-"* idk do I do anything else\n";
+const projects = "\n***Coding Projects***\n" +
+"\nMost projects are located on my GitHub: " + github + "\n" +
+"\nTerminalli: \n* an interactive terminal website that uses commands to display information \n* created primarily with JavaScript, HTML, and CSS\n" +
+"\nSoftware Aid for Medical Emergencies:\n* Mobile Application that aids Internal Medicine Trainees in determining diagnoses\n* created using Flutter, Dart, and Firebase\n" +
+"\nBike Tour Application: \n* Design project for a self-led bike tour mobile application around Barcelona\n* included lots of prototyping in Figma and demos in PowerPoint\n" +
+"\nChat Box: \n* Local multi-threaded chatroom implementing TCP socket connections & authentication\n* based in Python using libraries such as socket and threading\n" +
+"\nFrogger Application:\n* Android Application that recreates the retro Frogger Application in Goergia Tech theme\n* created using Java and Android Studio\n" +
+"\nJordle Game \n* Wordle parody using JavaFX graphics\n" +
+"\nFuture code/portfolio is under construction... polishing some bits and bytes, but more coming soon :)\n" +
+"\n***Personal Projects***\n" +
+"\nNotion Templates\n* create & design sophisticated Notion Templates to improve organization & productivity\n* available for download at: insert link to templates when I'm approved\n" +
+"\nPainting AirForce 1s\n* painting shoes for friends & family" +
+"\nidk do I do anything else\n";
 
 const skills = "\nTechnical Skills & Interests\n" +
 "* UI/UX Design\n" +
@@ -61,10 +67,6 @@ const hobbies = "\nHobbies\n" +
 "* Traveling -- all over the world with my favorite people :)\n" +
 "* Chinese Yo-yo (Diabolo)\n" +
 "* Taekwondo\n";
-
-const linkedin = "https://www.linkedin.com/in/allisonwong22";
-
-const github = "https://github.com/allisonw22";
 
 const contact = "\nContact Information\n" +
 "Email: awong310@gatech.edu\n" +
