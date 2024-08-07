@@ -23,8 +23,7 @@ const experience = "\nSoftware Systems Intern | The Aerospace Corporation (Summe
 "* Implemented a caching system with SQLite to improve runtime efficiency when fetching data\n" +
 "* Streamlined testing processes & enhanced productivity by implementing SQLite & Rest APIs\n";
 
-// add Notion Templates page when I get approved (if? hopefully?)
-// link github & list out projects & short descriptions & languages
+// TODO STILL
 // how do i format it to look nice
 // make the names of the projects hrefs to githubs? 
 const projects = "\nCoding Projects\n" +
@@ -69,9 +68,14 @@ const github = "https://github.com/allisonw22";
 
 const contact = "\nContact Information\n" +
 "Email: awong310@gatech.edu\n" +
-"Phone: 240-701-2521\n" +
 "LinkedIn: " + linkedin + "\n" +
 "GitHub: " + github + "\n" +
 "Based out of Maryland (but always willing to travel!)\n";
 
-const resources = "\nResources\n";
+const resources = "\n" +
+"This project is originally inspired by Forrest Knight's YouTube channel & Terminal website.\n" +
+"\nMore resources for inspiration and learniing are listed below:\n" +
+"* https://terminal.jcubic.pl/documentation.php\n" +
+"* https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288\n" +
+"* https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/\n" +
+"* https://codepen.io/collection/LPjoaW\n";
