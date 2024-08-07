@@ -14,22 +14,24 @@ const abouta = "\n\tHi, my name is Allison (or alli)!\n" +
 // should I add hobby projects?
 const projects = "\n\tCurrent code is still under construction... polishing some bits and bytes, but coming soon :)\n";
 
-const skills = "\n\tTechnical Skills\n" +
-"\t*\n" +
-"\t*\n" +
-"\t*\n" +
-"\t*\n" +
+const skills = "\n\tTechnical Skills & Interests\n" +
+"\t* UI/UX Design\n" +
+"\t* Data Visualization\n" +
+"\t* Databasing\n" +
+"\t* Networking\n" +
+"\t* Full Stack Development\n" +
 "\n\tSoftwares\n" +
 "\t* Frontend: Svelte, Flutter, HTML, Tailwind CSS, Javascript, CSS\n" +
 "\t* Backend: Python, Java, Go, C\n" +
 "\t* Services: Docker, MySQL, FastAPI, Grafana, Photoview\n" +
 "\n\tSoft Skills\n" +
-"\t*\n" +
-"\t*\n" +
-"\t*\n" +
-"\t*\n";
+"\t* Organization\n" +
+"\t* Adaptibility\n" +
+"\t* Collaboration\n" +
+"\t* Problem Solving\n" +
+"\t* Time Management\n";
 
-const hobbies = "\n\tHobbies:\n" +
+const hobbies = "\n\tHobbies\n" +
 "\t* Reading!! (fantasy, historic fiction, bildungsroman, etc.)\n" +
 "\t* Film Photography (film instagram available @justafilmcam)\n" +
 "\t* Traveling -- all over the world with my favorite people :)\n" +
