@@ -33,6 +33,9 @@ function ready() {
         abouta() {
             this.echo(abouta);
         },
+        experience() {
+            this.echo(experience)
+        },
         projects() {
             this.echo(projects);
         },
@@ -44,6 +47,9 @@ function ready() {
         },
         contact() {
             this.echo(contact);
+        },
+        resources() {
+            this.echo(resources);
         }
     }, {
         greetings: false,
