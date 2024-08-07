@@ -13,7 +13,12 @@ const projects = "\n\tCurrent code is still under construction... polishing some
 
 const skills = "";
 
-const hobbies = "";
+const hobbies = "\n\tHobbies:\n" +
+"\t* Reading!!\n" +
+"\t* Film Photography\n" +
+"\t* Traveling\n" +
+"\t* Chinese Yo-yo (Diabolo)\n" +
+"\t* Taekwondo\n";
 
 const contact = "idk";
 

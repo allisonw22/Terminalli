@@ -16,24 +16,33 @@ var term = $('body').terminal(commands, {
 const commands = {
     banner: function() {
         term.echo(() => render(this, "Allison Wong"));
+    },
+    bruh: function() {
+        term.echo("please work bruh");
     }
 };
 
 function ready() {
     term = $('body').terminal({
-        banner: function() {
+        banner() {
             this.echo(() => render(this, "Allison Wong"));
         },
-        help: function() {
+        help() {
             this.echo(help);
         },
-        abouta: function() {
+        abouta() {
             this.echo(abouta);
         },
-        projects: function() {
+        projects() {
             this.echo(projects);
         },
-        contact: function() {
+        skills() {
+            this.echo(skills);
+        },
+        hobbies() {
+            this.echo(hobbies);
+        },
+        contact() {
             this.echo(contact);
         }
     }, {
